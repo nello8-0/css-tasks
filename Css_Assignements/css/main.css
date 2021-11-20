@@ -1,0 +1,32 @@
+/* Any class's name is title  */
+/* .title{
+} */
+
+/* nav has ID but it refers to this nav only. */
+/* #nav{
+} */
+
+/* any div in this page will take these properties */
+/* div{
+} */
+
+/* All h2 in the page will take these properties */
+/* h2{
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    width: 1000px;
+    height: 590px;
+    margin: 10px auto;
+}
+.two{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

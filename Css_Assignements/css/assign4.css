@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    position: relative;
+}
+
+.parent div.child span.title{
+    color: red;
+}
+
+div.parent span.title{
+    color: blue;
+}
+
+/* p{
+    color: green;
+}
+
+div.title{
+    color: green;
+} */
+
+p,
+div.title{
+    color: green;
+}
+
+.container div{
+    max-width: 400px;
+    max-height: 90px;
+    width: fit-content;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    background-color: brown;
+    padding: 19px;
+    font-size: 30px;
+    overflow: hidden;
+}
+.tree {
+    position: absolute;
+    right: 50px;
+    bottom: -100px;
+}
+
+.left {
+    position: absolute;
+    left: 50px;
+    bottom: -100px;
+}

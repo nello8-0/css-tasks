@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgb(148, 137, 137);
+    /* Get The Background From Image */
+    color: black;
+}
+
+.one{
+    background-color: rgb(97, 82, 82,.1)
+}
+
+.two{
+    opacity: .1;
+}
+
+.container {
+    width: 1000px;
+    background-color: #eee;
+    padding: 0;
+    text-align: center;
+}
+
+.container div{
+    display: inline-block;
+    background-color: rgb(184, 183, 183);
+}
+
+.firet{
+    width: calc(94%/1);
+}
+
+.second{
+    width: calc(94% /3);
+    
+}
+
+.third{
+    width: calc(94% /3);
+}
+
+.four{
+    width: calc(94% /3);
+}
+
+.five{
+    width: calc(94% /2);
+}
+.six{
+    width: calc(94% /2);
+}
+
+.seven{
+    width: calc(94% / 4);
+}
+
+.eight{
+    width: calc(94% / 4);
+}
+
+.nine{
+    width: calc(94% / 4);
+}
+
+.ten{
+    width: calc(94% / 4);
+}
+
+.tree {
+    position: absolute;
+    right: 50px;
+    bottom: -100px;
+}
+
+.left {
+    position: absolute;
+    left: 50px;
+    bottom: -100px;
+}

@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 40px;
+    text-align: center;
+}
+body{
+    position: relative;
+}
+
+div{
+    margin: 14px auto;
+    padding: 20px;
+    width: 900px;
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+    background-color: #eee;
+    padding: 3%;
+    border: 6px solid;
+    width: 600px;
+    outline: 6px solid;
+    outline-offset: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.dd{
+    border-color: orange;
+    outline-color: orange;
+}
+
+.oo{
+    border-color: orangered;
+    outline-color: orangered;
+}
+
+div.contain div.one{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300px;
+    font-style: italic;
+    font-size: 50px;
+}
+
+div.contain div.two{
+    font-family:'Cairo',sans-serif;
+    font-size: 40px;
+}
+
+div.contain div.three{
+    font-family: 'Jomhuria',cursive;
+    font-size: 40px;
+}
+
+span{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fo {
+    font-size: 3.125rem;
+}
+
+.ur {
+    font-size: 2.5rem;
+}
+
+.four {
+    font-size: 1.875rem;
+}
+
+.tree {
+    position: absolute;
+    right: 50px;
+    bottom: -100px;
+}
+
+.left {
+    position: absolute;
+    left: 50px;
+    bottom: -100px;
+}
